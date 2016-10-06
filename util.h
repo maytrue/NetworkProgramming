@@ -9,5 +9,10 @@
 #ifndef NetworkProgramming_util_h
 #define NetworkProgramming_util_h
 
+#define SUCCESS 0
+#define FAIL    -1
+
+
+void error_handling(char *message);
 
 #endif
