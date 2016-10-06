@@ -36,7 +36,7 @@ int main(int argc, const char * argv[]) {
     server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
     server_addr.sin_port = htons(atoi(port_str));
     
-    if (bind(server_socket, (struct sockaddr*)&server_addr, sizeof(server_addr) == -1)) {
+    if (bind(server_socket, (struct sockaddr*)&server_addr, sizeof(server_addr)) == FAIL) {
         error_handling("bind() error");
     }
     
