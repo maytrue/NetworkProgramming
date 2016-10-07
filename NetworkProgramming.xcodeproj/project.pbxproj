@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		246ECF841DA6437400C2C1DB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECF831DA6437400C2C1DB /* main.c */; };
 		246ECF981DA64CC400C2C1DB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECF971DA64CC400C2C1DB /* util.c */; };
 		246ECF991DA64CE200C2C1DB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECF971DA64CC400C2C1DB /* util.c */; };
 		246ECFA81DA6504E00C2C1DB /* hello_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECFA71DA6504E00C2C1DB /* hello_client.c */; };
 		246ECFAB1DA6510700C2C1DB /* hello_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECFA91DA6508700C2C1DB /* hello_server.c */; };
 		246ECFAC1DA652DB00C2C1DB /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECF971DA64CC400C2C1DB /* util.c */; };
+		246ECFB41DA6914D00C2C1DB /* ch3_endian_conv.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECFB31DA6914D00C2C1DB /* ch3_endian_conv.c */; };
+		246ECFBF1DA6935200C2C1DB /* ch3_inet_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECFBE1DA6935200C2C1DB /* ch3_inet_addr.c */; };
+		24A34F1A1DA79DE600E20D3C /* ch17_epoll_edgetriger.c in Sources */ = {isa = PBXBuildFile; fileRef = 24A34F191DA79DE600E20D3C /* ch17_epoll_edgetriger.c */; };
+		24A34F1E1DA7A0CB00E20D3C /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 246ECF971DA64CC400C2C1DB /* util.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,17 +46,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		246ECFAF1DA6914D00C2C1DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		246ECFBA1DA6935200C2C1DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		24A34F151DA79DE600E20D3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		246ECF801DA6437400C2C1DB /* NetworkProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NetworkProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
-		246ECF831DA6437400C2C1DB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		246ECF8E1DA6445900C2C1DB /* ch1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch1; sourceTree = BUILT_PRODUCTS_DIR; };
+		246ECF8E1DA6445900C2C1DB /* ch1_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch1_server; sourceTree = BUILT_PRODUCTS_DIR; };
 		246ECF961DA64C6500C2C1DB /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		246ECF971DA64CC400C2C1DB /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
 		246ECFA01DA6500A00C2C1DB /* ch1_client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch1_client; sourceTree = BUILT_PRODUCTS_DIR; };
 		246ECFA71DA6504E00C2C1DB /* hello_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hello_client.c; sourceTree = "<group>"; };
 		246ECFA91DA6508700C2C1DB /* hello_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hello_server.c; path = ch1_server/hello_server.c; sourceTree = SOURCE_ROOT; };
+		246ECFB11DA6914D00C2C1DB /* ch3_endian_conv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch3_endian_conv; sourceTree = BUILT_PRODUCTS_DIR; };
+		246ECFB31DA6914D00C2C1DB /* ch3_endian_conv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ch3_endian_conv.c; sourceTree = "<group>"; };
+		246ECFBC1DA6935200C2C1DB /* ch3_inet_addr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch3_inet_addr; sourceTree = BUILT_PRODUCTS_DIR; };
+		246ECFBE1DA6935200C2C1DB /* ch3_inet_addr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ch3_inet_addr.c; sourceTree = "<group>"; };
+		24A34F171DA79DE600E20D3C /* ch17_epoll_edgetriger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ch17_epoll_edgetriger; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A34F191DA79DE600E20D3C /* ch17_epoll_edgetriger.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ch17_epoll_edgetriger.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +113,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		246ECFAE1DA6914D00C2C1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246ECFB91DA6935200C2C1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A34F141DA79DE600E20D3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,9 +141,11 @@
 			isa = PBXGroup;
 			children = (
 				246ECF951DA64C3B00C2C1DB /* util */,
-				246ECF821DA6437400C2C1DB /* NetworkProgramming */,
 				246ECF8F1DA6445900C2C1DB /* ch1_server */,
 				246ECFA11DA6500A00C2C1DB /* ch1_client */,
+				246ECFB21DA6914D00C2C1DB /* ch3_endian_conv */,
+				246ECFBD1DA6935200C2C1DB /* ch3_inet_addr */,
+				24A34F181DA79DE600E20D3C /* ch17_epoll_edgetriger */,
 				246ECF811DA6437400C2C1DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,18 +154,13 @@
 			isa = PBXGroup;
 			children = (
 				246ECF801DA6437400C2C1DB /* NetworkProgramming */,
-				246ECF8E1DA6445900C2C1DB /* ch1 */,
+				246ECF8E1DA6445900C2C1DB /* ch1_server */,
 				246ECFA01DA6500A00C2C1DB /* ch1_client */,
+				246ECFB11DA6914D00C2C1DB /* ch3_endian_conv */,
+				246ECFBC1DA6935200C2C1DB /* ch3_inet_addr */,
+				24A34F171DA79DE600E20D3C /* ch17_epoll_edgetriger */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		246ECF821DA6437400C2C1DB /* NetworkProgramming */ = {
-			isa = PBXGroup;
-			children = (
-				246ECF831DA6437400C2C1DB /* main.c */,
-			);
-			path = NetworkProgramming;
 			sourceTree = "<group>";
 		};
 		246ECF8F1DA6445900C2C1DB /* ch1_server */ = {
@@ -134,6 +187,30 @@
 				246ECFA71DA6504E00C2C1DB /* hello_client.c */,
 			);
 			path = ch1_client;
+			sourceTree = "<group>";
+		};
+		246ECFB21DA6914D00C2C1DB /* ch3_endian_conv */ = {
+			isa = PBXGroup;
+			children = (
+				246ECFB31DA6914D00C2C1DB /* ch3_endian_conv.c */,
+			);
+			path = ch3_endian_conv;
+			sourceTree = "<group>";
+		};
+		246ECFBD1DA6935200C2C1DB /* ch3_inet_addr */ = {
+			isa = PBXGroup;
+			children = (
+				246ECFBE1DA6935200C2C1DB /* ch3_inet_addr.c */,
+			);
+			path = ch3_inet_addr;
+			sourceTree = "<group>";
+		};
+		24A34F181DA79DE600E20D3C /* ch17_epoll_edgetriger */ = {
+			isa = PBXGroup;
+			children = (
+				24A34F191DA79DE600E20D3C /* ch17_epoll_edgetriger.c */,
+			);
+			path = ch17_epoll_edgetriger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +247,7 @@
 			);
 			name = ch1_server;
 			productName = ch1;
-			productReference = 246ECF8E1DA6445900C2C1DB /* ch1 */;
+			productReference = 246ECF8E1DA6445900C2C1DB /* ch1_server */;
 			productType = "com.apple.product-type.tool";
 		};
 		246ECF9F1DA6500A00C2C1DB /* ch1_client */ = {
@@ -188,6 +265,57 @@
 			name = ch1_client;
 			productName = ch1_client;
 			productReference = 246ECFA01DA6500A00C2C1DB /* ch1_client */;
+			productType = "com.apple.product-type.tool";
+		};
+		246ECFB01DA6914D00C2C1DB /* ch3_endian_conv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246ECFB51DA6914D00C2C1DB /* Build configuration list for PBXNativeTarget "ch3_endian_conv" */;
+			buildPhases = (
+				246ECFAD1DA6914D00C2C1DB /* Sources */,
+				246ECFAE1DA6914D00C2C1DB /* Frameworks */,
+				246ECFAF1DA6914D00C2C1DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch3_endian_conv;
+			productName = ch3_endian_conv;
+			productReference = 246ECFB11DA6914D00C2C1DB /* ch3_endian_conv */;
+			productType = "com.apple.product-type.tool";
+		};
+		246ECFBB1DA6935200C2C1DB /* ch3_inet_addr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246ECFC01DA6935200C2C1DB /* Build configuration list for PBXNativeTarget "ch3_inet_addr" */;
+			buildPhases = (
+				246ECFB81DA6935200C2C1DB /* Sources */,
+				246ECFB91DA6935200C2C1DB /* Frameworks */,
+				246ECFBA1DA6935200C2C1DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch3_inet_addr;
+			productName = ch3_inet_addr;
+			productReference = 246ECFBC1DA6935200C2C1DB /* ch3_inet_addr */;
+			productType = "com.apple.product-type.tool";
+		};
+		24A34F161DA79DE600E20D3C /* ch17_epoll_edgetriger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24A34F1B1DA79DE600E20D3C /* Build configuration list for PBXNativeTarget "ch17_epoll_edgetriger" */;
+			buildPhases = (
+				24A34F131DA79DE600E20D3C /* Sources */,
+				24A34F141DA79DE600E20D3C /* Frameworks */,
+				24A34F151DA79DE600E20D3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ch17_epoll_edgetriger;
+			productName = ch17_epoll_edgetriger;
+			productReference = 24A34F171DA79DE600E20D3C /* ch17_epoll_edgetriger */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +336,15 @@
 					246ECF9F1DA6500A00C2C1DB = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
+					246ECFB01DA6914D00C2C1DB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					246ECFBB1DA6935200C2C1DB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					24A34F161DA79DE600E20D3C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 				};
 			};
 			buildConfigurationList = 246ECF7B1DA6437400C2C1DB /* Build configuration list for PBXProject "NetworkProgramming" */;
@@ -225,6 +362,9 @@
 				246ECF7F1DA6437400C2C1DB /* NetworkProgramming */,
 				246ECF8D1DA6445900C2C1DB /* ch1_server */,
 				246ECF9F1DA6500A00C2C1DB /* ch1_client */,
+				246ECFB01DA6914D00C2C1DB /* ch3_endian_conv */,
+				246ECFBB1DA6935200C2C1DB /* ch3_inet_addr */,
+				24A34F161DA79DE600E20D3C /* ch17_epoll_edgetriger */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246ECF841DA6437400C2C1DB /* main.c in Sources */,
 				246ECF981DA64CC400C2C1DB /* util.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +393,31 @@
 			files = (
 				246ECFAC1DA652DB00C2C1DB /* util.c in Sources */,
 				246ECFA81DA6504E00C2C1DB /* hello_client.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246ECFAD1DA6914D00C2C1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246ECFB41DA6914D00C2C1DB /* ch3_endian_conv.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246ECFB81DA6935200C2C1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246ECFBF1DA6935200C2C1DB /* ch3_inet_addr.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24A34F131DA79DE600E20D3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A34F1E1DA7A0CB00E20D3C /* util.c in Sources */,
+				24A34F1A1DA79DE600E20D3C /* ch17_epoll_edgetriger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +551,60 @@
 			};
 			name = Release;
 		};
+		246ECFB61DA6914D00C2C1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		246ECFB71DA6914D00C2C1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		246ECFC11DA6935200C2C1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		246ECFC21DA6935200C2C1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24A34F1C1DA79DE600E20D3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24A34F1D1DA79DE600E20D3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -406,6 +624,7 @@
 				246ECF891DA6437400C2C1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		246ECF921DA6445900C2C1DB /* Build configuration list for PBXNativeTarget "ch1_server" */ = {
 			isa = XCConfigurationList;
@@ -414,12 +633,40 @@
 				246ECF941DA6445900C2C1DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		246ECFA41DA6500A00C2C1DB /* Build configuration list for PBXNativeTarget "ch1_client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				246ECFA51DA6500A00C2C1DB /* Debug */,
 				246ECFA61DA6500A00C2C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246ECFB51DA6914D00C2C1DB /* Build configuration list for PBXNativeTarget "ch3_endian_conv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246ECFB61DA6914D00C2C1DB /* Debug */,
+				246ECFB71DA6914D00C2C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246ECFC01DA6935200C2C1DB /* Build configuration list for PBXNativeTarget "ch3_inet_addr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246ECFC11DA6935200C2C1DB /* Debug */,
+				246ECFC21DA6935200C2C1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24A34F1B1DA79DE600E20D3C /* Build configuration list for PBXNativeTarget "ch17_epoll_edgetriger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24A34F1C1DA79DE600E20D3C /* Debug */,
+				24A34F1D1DA79DE600E20D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
